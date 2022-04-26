@@ -39,5 +39,11 @@
     <ClCompile Include="psum_builtin.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="simd_m.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

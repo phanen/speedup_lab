@@ -25,6 +25,8 @@
     <ClCompile Include="psum_builtin.cpp" />
     <ClCompile Include="psum_module.cpp" />
     <ClCompile Include="psum_stl.cpp" />
+    <ClCompile Include="simd_m.cpp" />
+    <ClCompile Include="tools.cpp" />
     <ClCompile Include="vec_add_double.cpp" />
     <ClCompile Include="vec_add_int.cpp" />
   </ItemGroup>

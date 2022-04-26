@@ -13,28 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\thread_speed_up">
-      <UniqueIdentifier>{df0ea72a-7bbc-43d2-81bb-c49059b9370f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\SIMD">
-      <UniqueIdentifier>{5db631d8-abd6-4f19-bcd6-2f46d4325aa3}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\lenovo\Desktop\matrix_multiply.cpp">
-      <Filter>源文件\thread_speed_up</Filter>
+    <ClCompile Include="mat_mul_float.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\lenovo\Desktop\psum_builtin.cpp">
-      <Filter>源文件\thread_speed_up</Filter>
+    <ClCompile Include="vec_add_int.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\lenovo\Desktop\psum_module.cpp">
-      <Filter>源文件\thread_speed_up</Filter>
+    <ClCompile Include="vec_add_double.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\lenovo\Desktop\psum_stl.cpp">
-      <Filter>源文件\thread_speed_up</Filter>
+    <ClCompile Include="mat_mul.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\lenovo\Desktop\mat_mul_int.cpp">
-      <Filter>源文件\SIMD</Filter>
+    <ClCompile Include="psum_stl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mat_mul_int.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="psum_module.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="psum_builtin.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

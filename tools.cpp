@@ -18,14 +18,13 @@ void time_measure(void func(), const char* msg = "", size_t trials = 10) {
 	}
 	auto t2{ std::chrono::system_clock::now() };
 
-	double duration = (std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count()) / trials;
-
-
-	printf("duration: %.9f\n", duration);
-	//printf("Time measured[func: %-20s trials: %d]:%.9f\n\n",
-	//	msg,
-	//	trials,
-	//	duration
-	//);
+	double duration = (std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count() * 1e-9) / trials;
+	//printf("duration: %.9f\n", duration);
+	
+	printf("Time measured[func: %-20s trials: %d]:%.9f\n\n",
+		msg,
+		trials,
+		duration
+	);
 
 }
